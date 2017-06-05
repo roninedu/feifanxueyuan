@@ -1,0 +1,82 @@
+*{
+	/* reset 所有的样式 */
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	font-size: 14px;
+	color: #333333;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+/* 恢复父容器塌陷的高度 */
+.clear:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+/* 顶部 */
+.top{
+	font-size: 12px;
+	min-width: 1200px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #e1f3fd;
+}
+
+.top li{
+	float: left;
+	list-style: none;
+	padding:0 11px;
+	position: relative;
+}
+
+.top li span.fa{
+	color: #D82936;
+}
+.top li:hover{
+	background-color: gainsboro;
+}
+.top li:hover .sub-nav{
+	display: block;
+}
+.top .sub-nav{
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	width: 100px;
+	text-align: center;
+	background-color: gainsboro;
+	display: none;
+}
+.top .sub-nav li{
+	width: inherit;
+	padding: 0;
+}
+.top .sub-nav li:hover{
+	background-color: #e1f3fd;
+}
+.top .sub-nav li:hover a{
+	color: #d82936;
+}
