@@ -116,7 +116,7 @@ a{
 	height: 114px;
 	padding: 22px 0;
 	box-sizing: border-box;
-	background-color: green;
+	background-color: blue;
 }
 .header .logo{
 	height: 70px;
@@ -155,7 +155,7 @@ a{
 /*  banner */
 .banner{
 	height: 350px;
-	background-color: blue;
+	background-color: red;
 	position: relative;
 }
 
@@ -195,4 +195,51 @@ a{
 .banner .points span.active{
 	border-color:#de2824;
 	background-color: #de2824;
+}
+
+
+/* 课程  */
+.class{
+	height: 450px;
+	background-color: yellow;
+	position: relative;
+}
+.class > div{
+	height: inherit;
+}
+
+.class .class-news{
+	padding-left:240px;
+	padding-right: 228px;
+}
+
+.class .class-list{
+	width: 220px;
+	background-color: red;
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+
+.class .class-list ul{}
+.class .class-list ul li{
+	height:45px;
+	box-sizing: border-box;
+	border-left: solid 1px #d8d8d8;
+	border-right:solid 1px #d8d8d8 ;
+	border-bottom: solid  1px #d8d8d8;
+}
+.class .class-list li:first-child{
+	border-left:none;
+	border-right:none;
+	background-color: #dd2726;
+	color: #FFFFFF;
+}
+
+.class .class-hot{
+	width: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
